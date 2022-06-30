@@ -1,0 +1,28 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.apple502j.dotone.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BlendingDataFixMixin",
+    "ChunkGeneratorMixin",
+    "LayFrogSpawnTaskMixin",
+    "LifecycledResourceManagerImplMixin",
+    "LivingEntityMixin",
+    "ProjectileAttackGoalMixin",
+    "ServerPlayNetworkHandlerMixin",
+    "ZombieVillagerEntityMixin"
+  ],
+  "client": [
+    "client.ClientBuiltinResourcePackProviderMixin",
+    "client.ClientPlayerEntityMixin",
+    "client.ClientPlayNetworkHandlerMixin",
+    "client.CreativeInventoryScreenMixin",
+    "client.DebugHudMixin",
+    "client.InGameHudMixin",
+    "client.ScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
